@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "test": "node_modules/.bin/mocha --reporter spec",
+    "cover": "node_modules/istanbul/lib/cli.js cover node_modules/mocha/bin/_mocha -- -R spec test/*"
+},
   "author": "Vinod Krishnan <vin.sinin@gmail.com> (https://vtkrishn.github.io/)",
   "license": "ISC",
   "dependencies": {
