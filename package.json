@@ -9,6 +9,8 @@
   "author": "Vinod Krishnan <vin.sinin@gmail.com> (https://vtkrishn.github.io/)",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
     "express": "^4.16.2"
   }
 }
